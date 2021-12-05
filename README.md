@@ -1,2 +1,6 @@
-# Repo-ANDTV
-Esta Repo recoge los add-ons que hay por internet, No se hace responsable el mal uso. 
+# Repo-ANDTV Leia y Matrix
+# Es tu Repo de TVBAN que no puede faltar para tu Kodi.
+# Leia
+![img](https://i.imgur.com/DBrVLvy.jpg)
+# Matrix
+![img](https://i.imgur.com/ZyXs5H4.jpg)
