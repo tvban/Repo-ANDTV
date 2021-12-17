@@ -20,10 +20,9 @@
     
     <extension point="xbmc.addon.metadata">
         <summary>[COLOR steelblue]Repo[/COLOR] [COLOR azure]Andtv[/COLOR] [COLOR limegreen]Matrix[/COLOR]</summary>
-        <description>Repositorio de addons [COLOR dodgerblue]ANDTV[/COLOR].
-[COLOR gold]Developers:[/COLOR] [COLOR dodgerblue]JoseAnDeTEBA crea [COLOR white]REPO [COLOR limegreen]ANDTV[/COLOR]
-Éste repositorio sólo recoge Add-ons válidos para Kodi 19.x MATRIX.</description> 		             
-        <disclaimer>Éste repositorio sólo recoge Add-ons válidos para Kodi 19.x MATRIX.</disclaimer>
+        <description>Repositorio de addons [COLOR limegreen]ANDTV[/COLOR].
+[COLOR gold]Developers:[/COLOR] [COLOR dodgerblue]JoseAnDeTEBA.</description> 		             
+        <disclaimer>[COLOR gold]Éste repositorio sólo recoge Add-ons válidos para Kodi 19.x MATRIX.[/COLOR]</disclaimer>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
