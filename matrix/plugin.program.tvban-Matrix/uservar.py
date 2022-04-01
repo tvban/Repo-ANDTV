@@ -123,9 +123,9 @@ HEADERTYPE = 'Image'
 FONTHEADER = ''
 HEADERMESSAGE = '[COLOR azure][B]ANDTV[/B][/COLOR] [COLOR lime][B]MATRIX[/B][/COLOR]'
 # url to image if using Image 424x180
-HEADERIMAGE = 'https://i.imgur.com/7tsuHwV.png'
+HEADERIMAGE = 'https://i.imgur.com/7wJW9zd.png'
 # Font for Notification Window
 FONTSETTINGS = ''
 # Background for Notification Window
-BACKGROUND = 'https://i.imgur.com/Go38Mga.png'
+BACKGROUND = 'https://i.imgur.com/0ciyvn4.png'
 #########################################################

@@ -347,7 +347,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.program.tvban-Matrix" name="[B][COLOR azure]TVBAN[/COLOR] [COLOR lime]MATRIX[/COLOR][/B]" version="2.0" provider-name="[B][COLOR azure]ANDTV_TVBAN[/COLOR][/B]">
+<addon id="plugin.program.tvban-Matrix" name="[B][COLOR azure]TVBAN[/COLOR] [COLOR lime]MATRIX[/COLOR][/B]" version="2.2" provider-name="[B][COLOR azure]ANDTV_TVBAN[/COLOR][/B]">
 	<requires>
     	<import addon="xbmc.python" version="3.0.0"/>
     	<import addon="script.module.requests" />
@@ -370,7 +370,7 @@
 [B]• Telegram:[/B]         [COLOR lime]t.me/beelinkking[/COLOR]</description>
 		<platform>all</platform>
 		<reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>https://github.com/andtv/andtv.github.io/tree/master/ANDTV/matrix/plugin.program.TVBAN-Matrix</source>
+        <source>https://andtv.github.io/ANDTV/</source>
 		<news>
 • plugin.program [COLOR azure][B]TVBAN[/B][/COLOR] [COLOR lime][B]MATRIX[/B][/COLOR]
 
