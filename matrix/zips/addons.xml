@@ -659,14 +659,14 @@ Testers: Luisma, Toni, Zarat, SuperTopo, Jorge, Bojbit, MiKeL, Chikiry, Pau, Ale
     <extension point="xbmc.addon.metadata">
         <summary>[COLOR steelblue]Repo[/COLOR] [COLOR azure]Andtv[/COLOR] [COLOR limegreen]Matrix[/COLOR]</summary>
         <description>Repositorio de addons [COLOR limegreen]ANDTV[/COLOR].
-[COLOR gold]Developers:[/COLOR] [COLOR dodgerblue]JoseAnDeTEBA.[COLOR dodgerblue]</description>
+[COLOR gold]Developers:[/COLOR] [COLOR dodgerblue]JoseAnDeTEBA.[/COLOR]</description>
         <disclaimer>[COLOR gold]Éste repositorio sólo recoge Add-ons válidos para Kodi 19.x MATRIX.[/COLOR]</disclaimer>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-		<source>https://github.com/andtv/andtv.github.io/ANDTV/repositorios/Repo-ANDTV/</source>
+		<source>https://andtv.github.io/</source>
     </extension>
 </addon>
 
