@@ -15,10 +15,9 @@ description="[COLOR azure][B]TVBAN[/COLOR] [COLOR limegreen]MATRIX[/B][/COLOR] p
 
 
 
-
 name="Elementum-All-one"
 version="0.1.83"
-url="https://github.com/tvban/Repo-ANDTV/releases/download/0.1.83/Elementum-All-one.zip"
+url="https://github.com/andtv/Repo-ANDTV/releases/download/0.1.83/Elementum-All-one.zip"
 minor="http://"
 gui="http://"
 kodi="19"
