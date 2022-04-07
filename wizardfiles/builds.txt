@@ -15,19 +15,51 @@ description="[COLOR azure][B]TVBAN[/COLOR] [COLOR limegreen]MATRIX[/B][/COLOR] p
 
 
 
-name="Elementum-All-one"
-version="0.1.83"
-url="https://github.com/andtv/Repo-ANDTV/releases/download/0.1.83/Elementum-All-one.zip"
+name=""
+version=""
+url="http://"
 minor="http://"
 gui="http://"
 kodi="19"
-theme="https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/wizardfiles/TVBAN/themes.txt"
-icon="https://gtkingbuild.github.io//wizard/wizardmatrix/icon.jpg"
-fanart="https://gtkingbuild.github.io/wizard/wizardmatrix/fanart.jpg"
+theme="http://"
+icon="https://github.com/gtkingbuild/gtkingbuild.github.io/blob/master/wizard/wizardmatrix/Icon_tactil.jpg"
+fanart="https://github.com/gtkingbuild/gtkingbuild.github.io/blob/master/wizard/wizardmatrix/fanart_tactil.jpg"
 preview="http://"
 adult="No"
 info="http://"
-description="[COLOR azure][B]TVBAN[/COLOR] [COLOR limegreen]MATRIX[/B][/COLOR] para [COLOR teal][B]KODI 19.X Matrix.[/B][/COLOR]                                                       [COLOR dodgerblue][B]Developers:[/B][/COLOR] [B]JoseaTEBA.[/B]                         [COLOR orange][B]Colaboradores-Test:[/B][/COLOR] [COLOR cyan][B]TVBAN, JoseaTEBA.[/B][/COLOR]"
+description="[COLOR azure][B]GTKing[/COLOR] [COLOR limegreen]MATRIX[/B][/COLOR] para [COLOR teal][B]KODI 19.X Matrix.[/B][/COLOR] 
+                  [COLOR dodgerblue][B]Developers:[/B][/COLOR] [B]DavidZgZ, JoseaTEBA.[/B]                         [COLOR orange][B]Colaboradores-Test:[/B][/COLOR] [COLOR cyan][B]Sugea, Tete6776, Vicente, Mapache, Malibu y galaico11.[/B][/COLOR]"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#name="Elementum-All-one"
+#version="0.1.83"
+#url="https://github.com/andtv/Repo-ANDTV/releases/download/0.1.83/Elementum-All-one.zip"
+#minor="http://"
+#gui="http://"
+#kodi="19"
+#theme="https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/wizardfiles/TVBAN/themes.txt"
+#icon="https://gtkingbuild.github.io//wizard/wizardmatrix/icon.jpg"
+#fanart="https://gtkingbuild.github.io/wizard/wizardmatrix/fanart.jpg"
+#preview="http://"
+#adult="No"
+#info="http://"
+#description="[COLOR azure][B]TVBAN[/COLOR] [COLOR limegreen]MATRIX[/B][/COLOR] para [COLOR teal][B]KODI 19.X Matrix.[/B][/COLOR]                                                       [COLOR dodgerblue][B]Developers:[/B][/COLOR] [B]JoseaTEBA.[/B]                         [COLOR orange][B]Colaboradores-Test:[/B][/COLOR] [COLOR cyan][B]TVBAN, JoseaTEBA.[/B][/COLOR]"
+
+
+
 
 
 
