@@ -370,10 +370,13 @@
 [B]• Telegram:[/B]         [COLOR lime]t.me/beelinkking[/COLOR]</description>
 		<platform>all</platform>
 		<reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>https://andtv.github.io/ANDTV/</source>
+        <source>https://andtv.github.io/tvban/</source>
 		<news>
 • plugin.program [COLOR azure][B]TVBAN[/B][/COLOR] [COLOR lime][B]MATRIX[/B][/COLOR]
 
+
+• 8/1/2022
+- Edición.
 
 • 16/12/2021
 - Cambios nuevos.
@@ -398,11 +401,12 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.elementum" name="Elementum_nvidia_arm64" version="0.1.83" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.86" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
         <import addon="script.module.kodi-six" />
+        <import addon="script.module.requests" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="navigation.py">
         <provides>video</provides>
@@ -429,7 +433,7 @@
         <language>en el es de fi fr he hr it nl pt ro sk sv</language>
         <platform>all</platform>
         <website>http://elementum.surge.sh/</website>
-        <source>https://github.com/andtv/plugin.video.elementum-nvidia_arm64</source>
+        <source>https://github.com/elgatito/plugin.video.elementum</source>
         <forum></forum>
         <license>Non commercial. See https://github.com/elgatito/plugin.video.elementum/blob/master/LICENSE</license>
         <assets>
@@ -442,11 +446,12 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.elementum" name="Elementum_W_x64" version="0.1.83" provider-name="elgatito">
+<addon id="plugin.video.elementumw" name="Elementum_Wx64" version="0.1.86" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
         <import addon="script.module.kodi-six" />
+        <import addon="script.module.requests" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="navigation.py">
         <provides>video</provides>
@@ -473,7 +478,7 @@
         <language>en el es de fi fr he hr it nl pt ro sk sv</language>
         <platform>all</platform>
         <website>http://elementum.surge.sh/</website>
-        <source>https://github.com/andtv/plugin.video.elementum-W_x64</source>
+        <source>https://github.com/elgatito/plugin.video.elementum</source>
         <forum></forum>
         <license>Non commercial. See https://github.com/elgatito/plugin.video.elementum/blob/master/LICENSE</license>
         <assets>
