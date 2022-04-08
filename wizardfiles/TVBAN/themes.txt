@@ -1,23 +1,18 @@
-name="[B][COLOR white]•[/COLOR]Parche ANDTV Matrix[/B]"
-url="https://github.com/andtv/Repo-ANDTV/releases/download/1.0-matrix.parche.Prime/Parche.GTKing.Prime.MATRIX.zip"
-icon="https://gtkingbuild.github.io/wizard/imagenes/bgtki.png"
-fanart="https://gtkingbuild.github.io/wizard/imagenes/fanart.png"
-adult="no"
-description="Parche GTKing Prime MATRIX"
-
-
-name="[B][COLOR white]•[/COLOR]elementum-arm64[/B]"
+name="[B][COLOR white]•[/COLOR]Elementum-All_in-One[/B]"
 url="https://github.com/andtv/Repo-ANDTV/releases/download/v0.186/Elementum_all_v0.186.zip"
 icon="https://gtkingbuild.github.io/wizard/imagenes/bgtki.png"
 fanart="https://gtkingbuild.github.io/wizard/imagenes/fanart.png"
 adult="no"
 description="Motor Elementum ANDTV Matrix"
 
+name="[B][COLOR gold]•PARCHE[/B][/COLOR]"
 
-#name="[B][COLOR gold]•[/COLOR]elementum-W_x64[/B]"
-#url="https://github.com/andtv/Repo-ANDTV/releases/download/0.1.83/elementum-W_x64.zip"
+#name="[B][COLOR white]•[/COLOR]Parche ANDTV Matrix[/B]"
+#url="https://github.com/andtv/Repo-ANDTV/releases/download/1.0-matrix.parche.Prime/Parche.GTKing.Prime.MATRIX.zip"
 #icon="https://gtkingbuild.github.io/wizard/imagenes/bgtki.png"
 #fanart="https://gtkingbuild.github.io/wizard/imagenes/fanart.png"
 #adult="no"
-#description="Motor Elementum ANDTV Matrix"
+3description="Parche GTKing Prime MATRIX"
+
+
 
