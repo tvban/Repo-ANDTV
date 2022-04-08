@@ -1,11 +1,9 @@
-name="[B][COLOR white]•[/COLOR]Elementum-All_in-One[/B]"
-url="https://github.com/andtv/Repo-ANDTV/releases/download/v0.186/Elementum_all_v0.186.zip"
+name="[B][COLOR white]•[/COLOR]Instalar Elementum-All_in-One[/B]"
+url="https://github.com/andtv/Repo-ANDTV/releases/download/0.186/MOTOR.ELEMENTUM.zip"
 icon="https://gtkingbuild.github.io/wizard/imagenes/bgtki.png"
 fanart="https://gtkingbuild.github.io/wizard/imagenes/fanart.png"
 adult="no"
-description="Motor Elementum ANDTV Matrix"
-
-name="[B][COLOR gold]•PARCHE[/B][/COLOR]"
+description="Motor Elementum Todo en Uno"
 
 #name="[B][COLOR white]•[/COLOR]Parche ANDTV Matrix[/B]"
 #url="https://github.com/andtv/Repo-ANDTV/releases/download/1.0-matrix.parche.Prime/Parche.GTKing.Prime.MATRIX.zip"

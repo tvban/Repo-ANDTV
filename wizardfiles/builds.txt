@@ -13,10 +13,9 @@ adult="No"
 info="http://"
 description="[COLOR azure][B]TVBAN[/COLOR] [COLOR limegreen]MATRIX[/B][/COLOR] para [COLOR teal][B]KODI 19.X Matrix.[/B][/COLOR]                                                       [COLOR dodgerblue][B]Developers:[/B][/COLOR] [B]JoseaTEBA.[/B]                         [COLOR orange][B]Colaboradores-Test:[/B][/COLOR] [COLOR cyan][B]TVBAN, JoseaTEBA.[/B][/COLOR]"
 
-name="MOTOR"
  
-name="ELEMENTUM" 
-version="0.1"
+name="MOTOR ELEMENTUM" 
+version=""
 url="https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/wizardfiles/TVBAN/themes.txt"
 minor="http://"
 gui="http://"
@@ -44,6 +43,9 @@ adult="No"
 info="http://"
 description="[COLOR azure][B]TVBAN[/COLOR] [COLOR limegreen]MATRIX[/B][/COLOR] para [COLOR teal][B]KODI 19.X Matrix.[/B][/COLOR]                                                       [COLOR dodgerblue][B]Developers:[/B][/COLOR] [B]JoseaTEBA.[/B]                         [COLOR orange][B]Colaboradores-Test:[/B][/COLOR] [COLOR cyan][B]TVBAN, JoseaTEBA.[/B][/COLOR]"
  
+
+
+
 
 
 
