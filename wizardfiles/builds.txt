@@ -15,7 +15,7 @@ description="[COLOR azure][B]TVBAN[/COLOR] [COLOR limegreen]MATRIX[/B][/COLOR] p
 
  
 name="MOTOR ELEMENTUM" 
-version="0.186"
+version=""
 url="https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/wizardfiles/TVBAN/themes.txt"
 minor="http://"
 gui="http://"
