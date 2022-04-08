@@ -1,7 +1,39 @@
-name="[B][COLOR gold]•[/COLOR]Elementum All-one 0.1.83[/B]"
-url="https://github.com/tvban/Repo-TVBAN/releases/download/0.1.83/Elementum-All-one.zip"
+name="[B][COLOR gold]•[/COLOR]Parche ANDTV Matrix[/B]"
+url="https://github.com/andtv/Repo-ANDTV/releases/download/1.0-matrix.parche.Prime/Parche.GTKing.Prime.MATRIX.zip"
 icon="https://gtkingbuild.github.io/wizard/imagenes/bgtki.png"
 fanart="https://gtkingbuild.github.io/wizard/imagenes/fanart.png"
 adult="no"
-description="Motor Elementum TVBAN Matrix"
+description="Parche GTKing Prime MATRIX"
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#name="[B][COLOR gold]•[/COLOR]elementum-arm64[/B]"
+#url="https://github.com/andtv/Repo-ANDTV/releases/download/001.83/elementum-arm64.zip"
+#icon="https://gtkingbuild.github.io/wizard/imagenes/bgtki.png"
+#fanart="https://gtkingbuild.github.io/wizard/imagenes/fanart.png"
+#adult="no"
+#description="Motor Elementum ANDTV Matrix"
+
+#name="[B][COLOR gold]•[/COLOR]elementum-W_x64[/B]"
+#url="https://github.com/andtv/Repo-ANDTV/releases/download/0.1.83/elementum-W_x64.zip"
+#icon="https://gtkingbuild.github.io/wizard/imagenes/bgtki.png"
+#fanart="https://gtkingbuild.github.io/wizard/imagenes/fanart.png"
+#adult="no"
+#description="Motor Elementum ANDTV Matrix"
