@@ -1,11 +1,20 @@
-name="[B][COLOR white]•[/COLOR]Instalar Elementum-All_in-One[/B]"
+name="[B][COLOR white]••• INSTALAR ACTUALIZACION •••[/COLOR][/B]"
+
+name="[B][COLOR white]•[/COLOR]Elementum-All_0.186[/B]"
 url="https://github.com/andtv/Repo-ANDTV/releases/download/0.186/MOTOR.ELEMENTUM.zip"
 icon="https://gtkingbuild.github.io/wizard/imagenes/bgtki.png"
 fanart="https://gtkingbuild.github.io/wizard/imagenes/fanart.png"
 adult="no"
 description="Motor Elementum Todo en Uno"
 
+name="[B][COLOR white]••• INSTALAR MOTOR •••[/COLOR][/B]"
 
+name="[B][COLOR white]•[/COLOR]Elementum-All_0.186[/B]"
+url="https://github.com/andtv/Repo-ANDTV/releases/download/0.186/MOTOR.ELEMENTUM.zip"
+icon="https://gtkingbuild.github.io/wizard/imagenes/bgtki.png"
+fanart="https://gtkingbuild.github.io/wizard/imagenes/fanart.png"
+adult="no"
+description="Motor Elementum Todo en Uno"
 
 
 
