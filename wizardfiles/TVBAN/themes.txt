@@ -6,7 +6,7 @@ adult="no"
 description="Motor Elementum Todo en Uno"
 
 
-name="[B][COLOR white]•• [COLOR orange]INSTALAR MOTOR[/COLOR]                             [COLOR green]•[/COLOR] Elementum-All_0.186[/B]"
+name="[B][COLOR white]•• [COLOR orange]INSTALAR MOTOR[/COLOR]                       [COLOR green]•[/COLOR] Elementum-All_0.186[/B]"
 url="https://github.com/andtv/Repo-ANDTV/releases/download/0.186/Elementum-All_0.186.zip"
 icon="https://gtkingbuild.github.io/wizard/imagenes/bgtki.png"
 fanart="https://gtkingbuild.github.io/wizard/imagenes/fanart.png"
