@@ -1,17 +1,18 @@
-name="[B][COLOR white]•[/COLOR]Instalar Elementum-All_in-One[/B]"
-url="https://github.com/andtv/Repo-ANDTV/releases/download/0.186/MOTOR.ELEMENTUM.zip"
+name="[B][COLOR white]•• INSTALAR ACTUALIZACION[/COLOR] [COLOR green] •[/COLOR] Build ANDTV MATRIX[/B]"
+url="https://github.com/andtv/Repo-ANDTV/releases/download/0.186/Elementum-All_0.186.zip"
 icon="https://gtkingbuild.github.io/wizard/imagenes/bgtki.png"
 fanart="https://gtkingbuild.github.io/wizard/imagenes/fanart.png"
 adult="no"
 description="Motor Elementum Todo en Uno"
 
 
-#name="[B][COLOR white]•[/COLOR]Parche ANDTV Matrix[/B]"
-#url="https://github.com/andtv/Repo-ANDTV/releases/download/1.0-matrix.parche.Prime/Parche.GTKing.Prime.MATRIX.zip"
-#icon="https://gtkingbuild.github.io/wizard/imagenes/bgtki.png"
-#fanart="https://gtkingbuild.github.io/wizard/imagenes/fanart.png"
-#adult="no"
-#description="Parche GTKing Prime MATRIX"
+name="[B][COLOR white]•• [COLOR orange]INSTALAR MOTOR[/COLOR]                   [COLOR green]•[/COLOR] Elementum-All_0.186[/B]"
+url="https://github.com/andtv/Repo-ANDTV/releases/download/0.186/Elementum-All_0.186.zip"
+icon="https://gtkingbuild.github.io/wizard/imagenes/bgtki.png"
+fanart="https://gtkingbuild.github.io/wizard/imagenes/fanart.png"
+adult="no"
+description="Motor Elementum Todo en Uno"
+
 
 
 
