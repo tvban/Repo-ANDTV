@@ -1,17 +1,20 @@
+name="[B][COLOR white]•• [COLOR orange]MOTOR[/COLOR]                   [COLOR green]•[/COLOR] Elementum-All_0.186[/B]"
+url="https://github.com/andtv/Repo-ANDTV/releases/download/v0.186/Elementum_all_one_v0.186.zip"
+icon="https://gtkingbuild.github.io/wizard/imagenes/bgtki.png"
+fanart="https://gtkingbuild.github.io/wizard/imagenes/fanart.png"
+adult="no"
+description="[COLOR orange][B]Motor: [COLOR white]Elementum[/B] para [COLOR teal][B]KODI[/COLOR]"
+
+
 name="[B][COLOR white]•• ACTUALIZACION[/COLOR] [COLOR green] •[/COLOR] Build ANDTV MATRIX[/B]"
-url="https://github.com/andtv/Repo-ANDTV/releases/download/v0.186/Elementum_all_v0.186.zip"
+url="https://github.com/andtv/Repo-ANDTV/releases/download/v0.186/Elementum_all_one_v0.186.zip"
 icon="https://gtkingbuild.github.io/wizard/imagenes/bgtki.png"
 fanart="https://gtkingbuild.github.io/wizard/imagenes/fanart.png"
 adult="no"
 description="[COLOR azure][B]TVBAN[/COLOR] [COLOR limegreen]MATRIX[/B][/COLOR] para [COLOR teal][B]KODI 19.X Matrix.[/B][/COLOR] [COLOR dodgerblue][B]Developers:[/B][/COLOR] [B]JoseaTEBA.[/B] [COLOR orange][B]Colaboradores-Test:[/B][/COLOR] [COLOR cyan][B]TVBAN, JoseaTEBA.[/B][/COLOR]"                               
 
 
-name="[B][COLOR white]•• [COLOR orange]MOTOR[/COLOR]                   [COLOR green]•[/COLOR] Elementum-All_0.186[/B]"
-url="https://github.com/andtv/Repo-ANDTV/releases/download/v0.186/Elementum_all_v0.186.zip"
-icon="https://gtkingbuild.github.io/wizard/imagenes/bgtki.png"
-fanart="https://gtkingbuild.github.io/wizard/imagenes/fanart.png"
-adult="no"
-description="[COLOR orange][B]Motor: [COLOR white]Elementum[/B] para [COLOR teal][B]KODI[/COLOR]"
+
 
 
 
