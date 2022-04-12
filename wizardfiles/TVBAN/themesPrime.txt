@@ -1,5 +1,5 @@
 name="[B][COLOR white]•• INSTALAR ACTUALIZACION[/COLOR] [COLOR green] •[/COLOR] Build ANDTV MATRIX[/B]"
-url=""
+url="https://github.com/andtv/Repo-ANDTV/releases/download/0.186/Elementum-All_0.186.zip"
 icon="https://gtkingbuild.github.io/wizard/imagenes/bgtki.png"
 fanart="https://gtkingbuild.github.io/wizard/imagenes/fanart.png"
 adult="no"
