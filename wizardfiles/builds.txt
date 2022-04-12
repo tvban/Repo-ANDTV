@@ -14,7 +14,7 @@ description="[COLOR azure][B]TVBAN[/COLOR] [COLOR limegreen]MATRIX[/B][/COLOR] p
 
 #name="ELEMENTUM" 
 version="0.1"
-url="https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/wizardfiles/TVBAN/themesPrime.txt"
+#url="https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/wizardfiles/TVBAN/themesPrime.txt"
 #url="https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/wizardfiles/TVBAN/themesPrime.txt"
 minor="http://"
 gui="http://"
