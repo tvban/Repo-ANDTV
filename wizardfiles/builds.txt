@@ -25,7 +25,7 @@ fanart="https://gtkingbuild.github.io/wizard/wizardmatrix/fanart.jpg"
 preview="http://"
 adult="No"
 info="http://"
-description="[COLOR azure][B]TVBAN[/COLOR] [COLOR limegreen]MATRIX[/B][/COLOR] para [COLOR teal][B]KODI 19.X Matrix.[/B][/COLOR]                                                       [COLOR dodgerblue][B]Developers:[/B][/COLOR] [B]JoseaTEBA.[/B]                         [COLOR orange][B]Colaboradores-Test:[/B][/COLOR] [COLOR cyan][B]TVBAN, JoseaTEBA.[/B][/COLOR]"
+description="[COLOR orange][B]Motor: [COLOR white]Elementum[/B] para [COLOR teal][B]KODI[/COLOR] "
 
 name=""
 version=""
