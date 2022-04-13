@@ -29,7 +29,7 @@ YOUTUBEFILE = 'http://'
 # Text File for addon installer.  Leave as 'http://' to ignore
 ADDONFILE = 'http://'
 # Text File for advanced settings.  Leave as 'http://' to ignore
-ADVANCEDFILE = 'https://raw.githubusercontent.com/andtv/andtv.github.io/master/ANDTV/wizard/xml/Advanced.json'
+ADVANCEDFILE = 'https://raw.githubusercontent.com/andtv/andtv.github.io/master/tvban/wizard/xml/Advanced.json'
 #########################################################
 
 #########################################################
