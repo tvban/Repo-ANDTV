@@ -543,10 +543,10 @@ def enable_addons(all=False):
 
 def remove_addon_data_menu():
     if os.path.exists(CONFIG.ADDON_DATA):
-        directory.add_file('[COLOR red][B][REMOVE][/B][/COLOR] All Addon_Data', {'mode': 'removedata', 'name': 'all'}, themeit=CONFIG.THEME2)
-        directory.add_file('[COLOR red][B][REMOVE][/B][/COLOR] All Addon_Data for Uninstalled Addons', {'mode': 'removedata', 'name': 'uninstalled'}, themeit=CONFIG.THEME2)
-        directory.add_file('[COLOR red][B][REMOVE][/B][/COLOR] All Empty Folders in Addon_Data', {'mode': 'removedata', 'name': 'empty'}, themeit=CONFIG.THEME2)
-        directory.add_file('[COLOR red][B][REMOVE][/B][/COLOR] {0} Addon_Data'.format(CONFIG.ADDONTITLE), {'mode': 'resetaddon'}, themeit=CONFIG.THEME2)
+        directory.add_file('[COLOR red][B][ELIMINAR][/B][/COLOR] Todos los Addon_Data', {'mode': 'removedata', 'name': 'all'}, themeit=CONFIG.THEME2)
+        directory.add_file('[COLOR red][B][ELIMINAR][/B][/COLOR] Todos los Addon_Data para Addons Desinstalados', {'mode': 'removedata', 'name': 'uninstalled'}, themeit=CONFIG.THEME2)
+        directory.add_file('[COLOR red][B][ELIMINAR][/B][/COLOR] Todas las Carpetas Vacías en Addon_Data', {'mode': 'removedata', 'name': 'empty'}, themeit=CONFIG.THEME2)
+        directory.add_file('[COLOR red][B][ELIMINAR][/B][/COLOR] {0} Addon_Data'.format(CONFIG.ADDONTITLE), {'mode': 'resetaddon'}, themeit=CONFIG.THEME2)
         directory.add_separator(themeit=CONFIG.THEME3)
         fold = glob.glob(os.path.join(CONFIG.ADDON_DATA, '*/'))
         for folder in sorted(fold, key = lambda x: x):
@@ -563,12 +563,12 @@ def remove_addon_data_menu():
             for rep in replace:
                 folderdisplay = folderdisplay.replace(rep, replace[rep])
             if foldername in CONFIG.EXCLUDES:
-                folderdisplay = '[COLOR springgreen][B][PROTECTED][/B][/COLOR] {0}'.format(folderdisplay)
+                folderdisplay = '[COLOR cyan][B][PROTEGER][/B][/COLOR] {0}'.format(folderdisplay)
             else:
-                folderdisplay = '[COLOR red][B][REMOVE][/B][/COLOR] {0}'.format(folderdisplay)
+                folderdisplay = '[COLOR red][B][ELIMINAR][/B][/COLOR] {0}'.format(folderdisplay)
             directory.add_file(' {0}'.format(folderdisplay), {'mode': 'removedata', 'name': foldername}, icon=icon, fanart=fanart, themeit=CONFIG.THEME2)
     else:
-        directory.add_file('No Addon data folder found.', themeit=CONFIG.THEME3)
+        directory.add_file('No se encontró ninguna carpeta de datos de Addon.', themeit=CONFIG.THEME3)
 
 
 def change_freq():
@@ -576,11 +576,11 @@ def change_freq():
 
     dialog = xbmcgui.Dialog()
 
-    change = dialog.select("[COLOR {0}]How often would you list to Auto Clean on Startup?[/COLOR]".format(CONFIG.COLOR2), CONFIG.CLEANFREQ)
+    change = dialog.select("[COLOR {0}]Con qué frecuencia incluiría en la lista Auto Limpieza al Iniciar?[/COLOR]".format(CONFIG.COLOR2), CONFIG.CLEANFREQ)
     if not change == -1:
         CONFIG.set_setting('autocleanfreq', str(change))
-        logging.log_notify('[COLOR {0}]Auto Clean Up[/COLOR]'.format(CONFIG.COLOR1),
-                           '[COLOR {0}]Frequency Now {1}[/COLOR]'.format(CONFIG.COLOR2, CONFIG.CLEANFREQ[change]))
+        logging.log_notify('[COLOR {0}]Limpieza Automática[/COLOR]'.format(CONFIG.COLOR1),
+                           '[COLOR {0}]Frecuencia Ahora {1}[/COLOR]'.format(CONFIG.COLOR2, CONFIG.CLEANFREQ[change]))
 
 
 def developer():
@@ -605,11 +605,11 @@ def create_addon_data_menu(add='', name=''):
     name2 = quote_plus(name.lower().replace(' ', ''))
     name = name.replace('url', 'URL Resolver')
     menu_items.append((CONFIG.THEME2.format(name.title()), ' '))
-    menu_items.append((CONFIG.THEME3.format('Save {0} Data'.format(add3)), 'RunPlugin(plugin://{0}/?mode=save{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
-    menu_items.append((CONFIG.THEME3.format('Restore {0} Data'.format(add3)), 'RunPlugin(plugin://{0}/?mode=restore{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
-    menu_items.append((CONFIG.THEME3.format('Clear {0} Data'.format(add3)), 'RunPlugin(plugin://{0}/?mode=clear{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
+    menu_items.append((CONFIG.THEME3.format('Guardar {0} Datos'.format(add3)), 'RunPlugin(plugin://{0}/?mode=save{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
+    menu_items.append((CONFIG.THEME3.format('Restaurar {0} Datos'.format(add3)), 'RunPlugin(plugin://{0}/?mode=restore{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
+    menu_items.append((CONFIG.THEME3.format('Eliminar {0} Datos'.format(add3)), 'RunPlugin(plugin://{0}/?mode=clear{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
 
-    menu_items.append((CONFIG.THEME2.format('{0} Settings'.format(CONFIG.ADDONTITLE)), 'RunPlugin(plugin://{0}/?mode=settings)'.format(CONFIG.ADDON_ID)))
+    menu_items.append((CONFIG.THEME2.format('{0} Ajustes'.format(CONFIG.ADDONTITLE)), 'RunPlugin(plugin://{0}/?mode=settings)'.format(CONFIG.ADDON_ID)))
 
     return menu_items
 
@@ -622,12 +622,12 @@ def create_save_data_menu(add='', name=''):
     name2 = quote_plus(name.lower().replace(' ', ''))
     name = name.replace('url', 'URL Resolver')
     menu_items.append((CONFIG.THEME2.format(name.title()), ' '))
-    menu_items.append((CONFIG.THEME3.format('Register {0}'.format(add3)), 'RunPlugin(plugin://{0}/?mode=auth{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
-    menu_items.append((CONFIG.THEME3.format('Save {0} Data'.format(add3)), 'RunPlugin(plugin://{0}/?mode=save{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
-    menu_items.append((CONFIG.THEME3.format('Restore {0} Data'.format(add3)), 'RunPlugin(plugin://{0}/?mode=restore{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
-    menu_items.append((CONFIG.THEME3.format('Import {0} Data'.format(add3)), 'RunPlugin(plugin://{0}/?mode=import{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
-    menu_items.append((CONFIG.THEME3.format('Clear Addon {0} Data'.format(add3)), 'RunPlugin(plugin://{0}/?mode=addon{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
+    menu_items.append((CONFIG.THEME3.format('Registrar {0}'.format(add3)), 'RunPlugin(plugin://{0}/?mode=auth{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
+    menu_items.append((CONFIG.THEME3.format('Guardar {0} Datos'.format(add3)), 'RunPlugin(plugin://{0}/?mode=save{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
+    menu_items.append((CONFIG.THEME3.format('Restaurar {0} Datos'.format(add3)), 'RunPlugin(plugin://{0}/?mode=restore{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
+    menu_items.append((CONFIG.THEME3.format('Importar {0} Datos'.format(add3)), 'RunPlugin(plugin://{0}/?mode=import{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
+    menu_items.append((CONFIG.THEME3.format('Eliminar Addon {0} Data'.format(add3)), 'RunPlugin(plugin://{0}/?mode=addon{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
 
-    menu_items.append((CONFIG.THEME2.format('{0} Settings'.format(CONFIG.ADDONTITLE)), 'RunPlugin(plugin://{0}/?mode=settings)'.format(CONFIG.ADDON_ID)))
+    menu_items.append((CONFIG.THEME2.format('{0} Ajustes'.format(CONFIG.ADDONTITLE)), 'RunPlugin(plugin://{0}/?mode=settings)'.format(CONFIG.ADDON_ID)))
 
     return menu_items
