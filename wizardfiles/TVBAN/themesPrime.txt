@@ -3,7 +3,7 @@ url="https://github.com/andtv/Repo-ANDTV/releases/download/v0.186/Elementum_all_
 icon="https://andtv.github.io/tvban/wizard/imagenes/elementum-All-One.png"
 fanart="https://andtv.github.io/tvban/wizard/imagenes/elementum.jpg"
 adult="no"
-description="[COLOR orange][B]Motor: [COLOR white]Elementum[/B] para [COLOR teal][B]KODI[/COLOR]"
+description="[B][COLOR orange]Motor: [COLOR white]Elementum. [COLOR teal]para [COLOR white]ANDTV [COLOR GreenYellow]Matrix[/COLOR][/B]"
 
 
 name="[B][COLOR white]•• Parche:[/COLOR]  Build ANDTV MATRIX[/B]"
