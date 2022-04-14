@@ -1,7 +1,7 @@
 name="[B][COLOR white]•• [COLOR orange]MOTOR:[/COLOR] Elementum-All_0.186[/B]"
 url="https://github.com/andtv/Repo-ANDTV/releases/download/v0.186/Elementum_all_one_v0.186.zip"
 icon="https://andtv.github.io/tvban/wizard/imagenes/elementum-All-One.png"
-fanart="https://gtkingbuild.github.io/wizard/imagenes/fanart.png"
+fanart="https://andtv.github.io/tvban/wizard/imagenes/elementum.jpg"
 adult="no"
 description="[COLOR orange][B]Motor: [COLOR white]Elementum[/B] para [COLOR teal][B]KODI[/COLOR]"
 
