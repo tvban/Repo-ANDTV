@@ -44,7 +44,7 @@
         <setting type="lsep" label="Menu de Mantenimiento: "/>
         <setting id="path" type="folder" label="Elija la Ubicación del Almacenamiento del Backup" default="special://home/"/>
         <setting type="lsep" label="Auto Limpieza al Iniciar:"/>
-        <setting id="autoclean" type="bool" label="Habilitar Limpieza Auto" default="false"/>
+        <setting id="autoclean" type="bool" label="Habilitar Limpieza Auto" default="true"/>
         <setting id="clearcache" type="bool" label="Borrar Cache al Iniciar" default="true" enable="!eq(-1,false)"/>
         <setting id="clearpackages" type="bool" label="Borrar paquetes al Iniciar" default="true" enable="!eq(-2,false)"/>
         <setting id="clearthumbs" type="bool" label="Borrar Miniaturas de una Semana al Inicio" default="true" enable="!eq(-3,false)"/>
