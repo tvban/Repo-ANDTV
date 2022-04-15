@@ -633,7 +633,7 @@ def remove_addon_data(addon):
                                '[COLOR {0}]Cancelado![/COLOR]'.format(CONFIG.COLOR2))
     elif addon == 'empty':  # clear empty folders from addon_data
         if dialog.yesno(CONFIG.ADDONTITLE,
-                            '[COLOR {0}]Le gustaria eliminar [COLOR {1}] TODAS [/ COLOR] las carpetas de datos de addons vacias en su carpeta de datos de usuario?[/COLOR]'.format(CONFIG.COLOR2, CONFIG.COLOR1),
+                            '[COLOR {0}]Le gustaria eliminar [COLOR {1}] TODAS [/COLOR] las carpetas de datos de addons vacias en su carpeta de datos de usuario?[/COLOR]'.format(CONFIG.COLOR2, CONFIG.COLOR1),
                             yeslabel='[B][COLOR cyan]Eliminar Datos[/COLOR][/B]',
                             nolabel='[B][COLOR red]No Eliminar[/COLOR][/B]'):
             total = tools.empty_folder(CONFIG.ADDON_DATA)
