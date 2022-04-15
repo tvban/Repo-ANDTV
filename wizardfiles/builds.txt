@@ -14,7 +14,7 @@ description="[COLOR azure][B]TVBAN[/COLOR] [COLOR limegreen]MATRIX[/B][/COLOR] p
 
 
 name="ANDTV Matrix" 
-version="1.1"
+version="1.2"
 url="https://github.com/andtv/Repo-ANDTV/blob/master/wizardfiles/TVBAN/themesParche.txt"
 minor="http://"
 gui="http://"
