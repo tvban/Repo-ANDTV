@@ -15,19 +15,16 @@ description="[COLOR azure][B]ANDTV[/COLOR] [COLOR limegreen]MATRIX[/B][/COLOR] p
 
 name="" 
 version=""
-<<<<<<< HEAD
 url="https://"
 minor="http://"
 gui="http://"
 kodi="19"
 theme="https://"
-=======
-#url="https://github.com/andtv/Repo-ANDTV/blob/master/wizardfiles/TVBAN/themesParche.txt"
+#url="https://"
 minor="http://"
 gui="http://"
 kodi="19"
-#theme="https://github.com/andtv/Repo-ANDTV/blob/master/wizardfiles/TVBAN/themesParche.txt"
->>>>>>> 0fb963318229054a20fad007f24068545325e671
+#theme="https:/"
 icon="https://gtkingbuild.github.io//wizard/wizardmatrix/icon.jpg"
 fanart="https://gtkingbuild.github.io/wizard/wizardmatrix/fanart.jpg"
 preview="http://"
