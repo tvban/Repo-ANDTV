@@ -16,7 +16,6 @@ description="[COLOR azure][B]TVBAN[/COLOR] [COLOR limegreen]MATRIX[/B][/COLOR] p
 name="ANDTV Matrix" 
 version="1.1"
 url="https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/wizardfiles/TVBAN/themesPrime.txt"
-#url="https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/wizardfiles/TVBAN/themesPrime.txt"
 minor="http://"
 gui="http://"
 kodi="19"
