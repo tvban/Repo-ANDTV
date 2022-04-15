@@ -7,7 +7,8 @@ description="[B][COLOR orange]Motor: [COLOR white]Elementum. [COLOR teal]para [C
 
 
 name="[B][COLOR white]•• Parche:[/COLOR]  Build ANDTV MATRIX[/B]"
-url="https://github.com/andtv/Repo-ANDTV/releases/download/v0.186/Elementum_all_one_v0.186.zip"
+version="1.1"
+url="https://github.com/andtv/Repo-ANDTV/releases/download/1.1/Parche.ANDTV.MATRIX.zip"
 icon="https://gtkingbuild.github.io/wizard/imagenes/bgtki.png"
 fanart="https://gtkingbuild.github.io/wizard/imagenes/fanart.png"
 adult="no"
