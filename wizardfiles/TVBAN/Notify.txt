@@ -1,5 +1,8 @@
-1
+2
 |||
+
+[COLOR darkorange][B]ATENCION ¡¡¡PARCHE ACTUALIZADOR PARA ANDTV MATRIX!!! [COLOR cyan]15/04/2022[/B][/COLOR]
+
 
 [COLOR greenyellow][B]¡¡¡BIENVENIDOS A LA BUILD TVBAN MATRIX!!![B][/COLOR]
 
@@ -11,6 +14,23 @@ En ésta ventana de Notificación, damos a [COLOR white][B]"Cerrar"[/B][/COLOR]
 Seleccionamos la Build que deseas instalar [COLOR yellowgreen][B]19.x[/B][/COLOR] - [COLOR white][B]Instalar Build[/B][/COLOR]. 
 Cuando termine de instalar, nos saldrá una ventana [COLOR white][B]"Necesita Forzar el Cierre de Kodi"[/B][/COLOR]. Pulsaremos en [COLOR white][B]"OK"[/B][/COLOR].
 Se cerrará Kodi y ya sólo nos quedará iniciar de nuevo Kodi, darle unos minutos para que cargue el menú correctamente.
+
+[COLOR darkorange][B]ATENCION ¡¡¡PARCHE ACTUALIZADOR PARA ANDTV MATRIX!!! [COLOR cyan]15/04/2022[/B][/COLOR]
+
+[COLOR red][B]* CORREGIDO ERROR DE REGISTRO PALANTIR.[/B][/COLOR]
+[COLOR red][B]* CORRECCIÓN DE CONTENIDOS.[/B][/COLOR]
+[COLOR red][B]* ELIMINADO ADDON RAMSES TV DE LA SECCIÓN TELEVISIÓN.[/B][/COLOR]
+[COLOR red][B]* AÑADIDO ADDON TORRENTS ACESTREAM EN LA SECCIÓN PELICULAS.[/B][/COLOR]
+[COLOR red][B]* AÑADIDO ADDON KODISPAIN EN LA SECCIÓN TELEVISIÓN.[/B][/COLOR]
+[COLOR red][B]* AÑADIDO ADDON MAGELLAN EN LA SECCIÓN TELEVISIÓN.[/B][/COLOR]
+[COLOR red][B]* ACTUALIZADO ADDON THEMOVIEDBHELPER.[/B][/COLOR]
+[COLOR red][B]* ACTUALIZADA DEPENDENCIA RESOLVERURL.[/B][/COLOR]
+
+
+[COLOR aquamarine][B]INSTALACIÓN DE PARCHE:[/B][/COLOR]
+
+Para instalar el Parche, deberemos seleccionar la build correspondiente que tengamos instalada y dentro nos saldrá el parche a instalar.
+Después de la instalacion del parche, una vez cargado KODI se tiene que ir a la sección MANTENIMIENTO en AJUSTES, una vez allí entrar en HERRAMIENTAS ADDON y pulsar HABILITAR/DESHABILITAR ADDONS, para la correcta activación de los Addons añadidos.
 
 
 [COLOR red]                   ****** JOSEATEBA, DAVIDZGZ ******                 [/COLOR] 
