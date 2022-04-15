@@ -10,23 +10,30 @@ fanart="https://gtkingbuild.github.io/wizard/wizardmatrix/fanart.jpg"
 preview="http://"
 adult="No"
 info="http://"
-description="[COLOR azure][B]TVBAN[/COLOR] [COLOR limegreen]MATRIX[/B][/COLOR] para [COLOR teal][B]KODI 19.X Matrix.[/B][/COLOR]                                                       [COLOR dodgerblue][B]Developers:[/B][/COLOR] [B]JoseaTEBA.[/B]                         [COLOR orange][B]Colaboradores-Test:[/B][/COLOR] [COLOR cyan][B]TVBAN, JoseaTEBA.[/B][/COLOR]"
+description="[COLOR azure][B]ANDTV[/COLOR] [COLOR limegreen]MATRIX[/B][/COLOR] para [COLOR teal][B]KODI 19.X Matrix.[/B][/COLOR]                                                       [COLOR dodgerblue][B]Developers:[/B][/COLOR] [B]JoseaTEBA.[/B]                         [COLOR orange][B]Colaboradores-Test:[/B][/COLOR] [COLOR cyan][B]TVBAN, JoseaTEBA.[/B][/COLOR]"
 
 
 name="" 
 version=""
+<<<<<<< HEAD
 url="https://"
 minor="http://"
 gui="http://"
 kodi="19"
 theme="https://"
+=======
+#url="https://github.com/andtv/Repo-ANDTV/blob/master/wizardfiles/TVBAN/themesParche.txt"
+minor="http://"
+gui="http://"
+kodi="19"
+#theme="https://github.com/andtv/Repo-ANDTV/blob/master/wizardfiles/TVBAN/themesParche.txt"
+>>>>>>> 0fb963318229054a20fad007f24068545325e671
 icon="https://gtkingbuild.github.io//wizard/wizardmatrix/icon.jpg"
 fanart="https://gtkingbuild.github.io/wizard/wizardmatrix/fanart.jpg"
 preview="http://"
 adult="No"
 info="http://"
-description="[COLOR orange][B]Motor: [COLOR white]Elementum[/B] para [COLOR teal][B]KODI[/COLOR]"
-
+description="[COLOR green][B]Parche [COLOR white]ANDTV[/COLOR] [COLOR limegreen]MATRIX[/B][/COLOR] para [COLOR teal][B]KODI[/COLOR]"
 
 name=""
 version=""
