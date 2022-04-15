@@ -225,9 +225,9 @@ def system_info():
             xbmc.sleep(200)
         data.append(temp)
         x += 1
-    storage_free = data[8] if 'Una' in data[8] else tools.convert_size(int(float(data[8][:-8])) * 1024 * 1024)
-    storage_used = data[9] if 'Una' in data[9] else tools.convert_size(int(float(data[9][:-8])) * 1024 * 1024)
-    storage_total = data[10] if 'Una' in data[10] else tools.convert_size(int(float(data[10][:-8])) * 1024 * 1024)
+    storage_free = data[8] if '' in data[8] else tools.convert_size(int(float(data[8][:-8])) * 1024 * 1024)
+    storage_used = data[9] if '' in data[9] else tools.convert_size(int(float(data[9][:-8])) * 1024 * 1024)
+    storage_total = data[10] if '' in data[10] else tools.convert_size(int(float(data[10][:-8])) * 1024 * 1024)
     ram_free = tools.convert_size(int(float(data[11][:-2])) * 1024 * 1024)
     ram_used = tools.convert_size(int(float(data[12][:-2])) * 1024 * 1024)
     ram_total = tools.convert_size(int(float(data[13][:-2])) * 1024 * 1024)
@@ -557,8 +557,8 @@ def remove_addon_data_menu():
             replace = {'audio.': '[COLOR orange][AUDIO] [/COLOR]', 'metadata.': '[COLOR cyan][METADATA] [/COLOR]',
                        'module.': '[COLOR orange][MODULE] [/COLOR]', 'plugin.': '[COLOR blue][PLUGIN] [/COLOR]',
                        'program.': '[COLOR orange][PROGRAM] [/COLOR]', 'repository.': '[COLOR gold][REPO] [/COLOR]',
-                       'script.': '[COLOR springgreen][SCRIPT] [/COLOR]',
-                       'service.': '[COLOR springgreen][SERVICE] [/COLOR]', 'skin.': '[COLOR dodgerblue][SKIN] [/COLOR]',
+                       'script.': '[COLOR cyan][SCRIPT] [/COLOR]',
+                       'service.': '[COLOR cyan][SERVICE] [/COLOR]', 'skin.': '[COLOR dodgerblue][SKIN] [/COLOR]',
                        'video.': '[COLOR orange][VIDEO] [/COLOR]', 'weather.': '[COLOR yellow][WEATHER] [/COLOR]'}
             for rep in replace:
                 folderdisplay = folderdisplay.replace(rep, replace[rep])
@@ -584,12 +584,12 @@ def change_freq():
 
 
 def developer():
-    directory.add_file('Create QR Code', {'mode': 'createqr'}, themeit=CONFIG.THEME1)
-    directory.add_file('Test Notifications', {'mode': 'testnotify'}, themeit=CONFIG.THEME1)
-    directory.add_file('Test Update', {'mode': 'testupdate'}, themeit=CONFIG.THEME1)
-    directory.add_file('Test Build Prompt', {'mode': 'testbuildprompt'}, themeit=CONFIG.THEME1)
-    directory.add_file('Test Save Data Settings', {'mode': 'testsavedata'}, themeit=CONFIG.THEME1)
-    directory.add_file('Test Binary Detection', {'mode': 'binarycheck'}, themeit=CONFIG.THEME1)
+    directory.add_file('Crear Código QR', {'mode': 'createqr'}, themeit=CONFIG.THEME1)
+    directory.add_file('Notificaciones de Prueba', {'mode': 'testnotify'}, themeit=CONFIG.THEME1)
+    directory.add_file('Actualización de Prueba', {'mode': 'testupdate'}, themeit=CONFIG.THEME1)
+    directory.add_file('Solicitud de Compilación de Prueba', {'mode': 'testbuildprompt'}, themeit=CONFIG.THEME1)
+    directory.add_file('Probar la Configuración de Guardar Datos', {'mode': 'testsavedata'}, themeit=CONFIG.THEME1)
+    directory.add_file('Prueba de Detección Binaria', {'mode': 'binarycheck'}, themeit=CONFIG.THEME1)
 
 
 ###########################
@@ -626,7 +626,7 @@ def create_save_data_menu(add='', name=''):
     menu_items.append((CONFIG.THEME3.format('Guardar {0} Datos'.format(add3)), 'RunPlugin(plugin://{0}/?mode=save{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
     menu_items.append((CONFIG.THEME3.format('Restaurar {0} Datos'.format(add3)), 'RunPlugin(plugin://{0}/?mode=restore{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
     menu_items.append((CONFIG.THEME3.format('Importar {0} Datos'.format(add3)), 'RunPlugin(plugin://{0}/?mode=import{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
-    menu_items.append((CONFIG.THEME3.format('Eliminar Addon {0} Data'.format(add3)), 'RunPlugin(plugin://{0}/?mode=addon{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
+    menu_items.append((CONFIG.THEME3.format('Eliminar Addon {0} Datos'.format(add3)), 'RunPlugin(plugin://{0}/?mode=addon{1}&name={2})'.format(CONFIG.ADDON_ID, add2, name2)))
 
     menu_items.append((CONFIG.THEME2.format('{0} Ajustes'.format(CONFIG.ADDONTITLE)), 'RunPlugin(plugin://{0}/?mode=settings)'.format(CONFIG.ADDON_ID)))
 
