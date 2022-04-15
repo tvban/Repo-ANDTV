@@ -374,7 +374,7 @@ def clear_cache(over=None):
                         continue
                     if 'Database' in item:
                         try:
-                            textexe.execute("ELIMINAR DESDE url_cache")
+                            textexe.execute("ELIMINAR DE url_cache")
                             textexe.execute("VACUUM")
                             textdb.commit()
                             textexe.close()
@@ -385,7 +385,7 @@ def clear_cache(over=None):
                         textexe.execute("SELECCIONE el nombre de sqlite_master DONDE tipo = 'table'")
                         for table in textexe.fetchall():
                             try:
-                                textexe.execute("ELIMINAR DESDE {0}".format(table[0]))
+                                textexe.execute("ELIMINAR DE {0}".format(table[0]))
                                 textexe.execute("VACUUM")
                                 textdb.commit()
                                 logging.log("[Correcto] limpiado {0} en {1}".format(table[0], item))
@@ -575,7 +575,7 @@ def remove_addon(addon, name, over=False, data=True):
         
         sqldb = sqlite3.connect(os.path.join(CONFIG.DATABASE, db.latest_db('Addons')))
         sqlexe = sqldb.cursor()
-        query = "DELETE FROM {0} WHERE addonID = '{1}'"
+        query = "ELIMINAR DE {0} DONDE addonID = '{1}'"
         
         for table in ['addons', 'installed', 'package']:
             sqlexe.execute(query.format(table, addon))
@@ -633,7 +633,7 @@ def remove_addon_data(addon):
                                '[COLOR {0}]Cancelado![/COLOR]'.format(CONFIG.COLOR2))
     elif addon == 'empty':  # clear empty folders from addon_data
         if dialog.yesno(CONFIG.ADDONTITLE,
-                            '[COLOR {0}]Le gustaria eliminar [COLOR {1}] TODAS [/COLOR] las carpetas de datos de addons vacias en su carpeta de datos de usuario?[/COLOR]'.format(CONFIG.COLOR2, CONFIG.COLOR1),
+                            '[COLOR {0}]Le gustaria eliminar [COLOR {1}] TODAS [/ COLOR] las carpetas de datos de addons vacias en su carpeta de datos de usuario?[/COLOR]'.format(CONFIG.COLOR2, CONFIG.COLOR1),
                             yeslabel='[B][COLOR cyan]Eliminar Datos[/COLOR][/B]',
                             nolabel='[B][COLOR red]No Eliminar[/COLOR][/B]'):
             total = tools.empty_folder(CONFIG.ADDON_DATA)
